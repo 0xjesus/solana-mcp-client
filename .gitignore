@@ -60,7 +60,6 @@ desktop.ini
 dist-ssr
 
 # PM2
-ecosystem.config.js
 
 # Archivos de almacenamiento local de Vue CLI
 .local-storage/
