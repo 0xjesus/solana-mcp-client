@@ -1,0 +1,66 @@
+# Dependencias
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+/cypress/screenshots
+/cypress/videos
+
+# Producción
+/dist
+/build
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor-specific directories
+.idea
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Variables de entorno y archivos de configuración local
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# Archivos de bloqueo (opcional, según preferencia del equipo)
+# yarn.lock
+# package-lock.json
+
+# Archivos de configuración específicos de usuario
+*.local
+
+# Caché y archivos temporales
+.cache
+.temp
+.tmp
+*.tmp
+*.bak
+.nuxt
+.output
+dist-ssr
+
+# PM2
+ecosystem.config.js
+
+# Archivos de almacenamiento local de Vue CLI
+.local-storage/
